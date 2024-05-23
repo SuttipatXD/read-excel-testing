@@ -2,5 +2,5 @@ install library with pip:
     pip --version
     pip install -r requirements.txt
 run test-case:
-    robot test-case-file.robot
-    robot --include tad-name test-case-file.robot
+    robot read-excel-file.robot
+    robot --include tag-name read-excel-file.robot
